@@ -622,3 +622,92 @@ html {
     color:#FFFFFF;
     transition: 0.3s;
 }
+
+/* mobile port */
+/* Mobile devices */
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px){
+
+nav{
+flex-direction: column;
+align-items: center;
+}
+
+nav ul{
+flex-direction: column;
+gap: 10px;
+padding: 0;
+}
+
+}
+
+@media (max-width:768px){
+
+.hero{
+flex-direction: column;
+text-align: center;
+}
+
+.hero img{
+width: 100%;
+}
+
+}
+
+@media (max-width:768px){
+
+.products{
+grid-template-columns: repeat(1,1fr);
+}
+
+}
+
+@media (max-width:768px){
+
+.contact-container{
+flex-direction: column;
+}
+
+}
+
+
+/* Desktop default */
+
+
+/* Tablet */
+@media (max-width:1024px){
+
+}
+
+
+/* Mobile */
+@media (max-width:768px){
+
+}
+
+@media (max-width:768px){
+
+nav{
+flex-direction: column;
+}
+
+.hero{
+flex-direction: column;
+}
+
+.products{
+grid-template-columns: 1fr;
+}
+
+.contact-container{
+flex-direction: column;
+}
+
+img{
+width:100%;
+}
+
+}
