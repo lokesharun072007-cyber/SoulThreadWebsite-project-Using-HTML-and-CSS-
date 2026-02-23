@@ -682,32 +682,3 @@ flex-direction: column;
 
 }
 
-
-/* Mobile */
-@media (max-width:768px){
-
-}
-
-@media (max-width:768px){
-
-nav{
-flex-direction: column;
-}
-
-.hero{
-flex-direction: column;
-}
-
-.products{
-grid-template-columns: 1fr;
-}
-
-.contact-container{
-flex-direction: column;
-}
-
-img{
-width:100%;
-}
-
-}
